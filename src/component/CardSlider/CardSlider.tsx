@@ -45,7 +45,7 @@ export default function CardSlider() {
 
   return (
     <Container className="mt-5" fluid dir="rtl">
-      <div className="text-center mb-4 mt-5">
+      <div className="text-center mb-4 mt-5 pt-3">
         <h2 className="fw-bold title_section">استكشف الوجهات</h2>
         <p className="fw-bold text-muted">استمتع باستكشاف الرحلات الممتعة معنا</p>
       </div>

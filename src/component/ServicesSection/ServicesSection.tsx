@@ -14,7 +14,7 @@ export default function ServicesSection() {
                                 <img
                                     src={img1}
                                     alt="background"
-                                    className="img-fluid main-image"
+                                    className="img-fluid main-image w-100"
                                 />
                             </div>
 
@@ -27,7 +27,7 @@ export default function ServicesSection() {
                     </Col>
 
                     <Col md={6} className="text-end">
-                        <h4 className="fw-bold mb-3 title_section">الخدمات</h4>
+                        <h4 className="fw-bold mb-3 mt-4 title_section">الخدمات</h4>
                         <p className="mb-4 text-muted">
                             توفر شركة <strong>Round In Oman</strong> العديد من الخدمات المتنوعة و الممتعة استكشفها و استمتع معنا
                         </p>

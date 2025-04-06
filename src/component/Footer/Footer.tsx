@@ -43,7 +43,7 @@ export default function Footer() {
           </Col>
 
           <Col md={3}>
-            <h5 className="fw-bold mb-3">بيانات التواصل</h5>
+            <h5 className="fw-bold mb-3 mx-4 px-3">بيانات التواصل</h5>
             <ul className="list-unstyled">
               <li className="d-flex align-items-center mb-2">
                 <i className="fa-solid fa-phone ms-2 bg-light text-primary rounded-circle p-2"></i>

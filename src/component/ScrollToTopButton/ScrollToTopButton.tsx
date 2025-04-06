@@ -29,10 +29,11 @@ const ScrollToTopButton: React.FC = () => {
     <>
       {isVisible && (
         <Button
-          variant="primary"
+          variant=""
           onClick={scrollToTop}
           className='scrollbtn'
           style={{
+            background:"#00aaff",
             position: 'fixed',
             bottom: '30px',
             right: '30px',
@@ -41,6 +42,7 @@ const ScrollToTopButton: React.FC = () => {
             width: '45px',
             height: '45px',
             padding: 0,
+            color:"white"
           }}
         >
           <IoArrowUpCircleOutline size={30} />

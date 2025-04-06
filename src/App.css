@@ -538,7 +538,7 @@ footer hr {
 
   .divpositionheader {
     position: absolute;
-    bottom: -35px;
+    bottom: -35px !important;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
@@ -572,14 +572,14 @@ footer hr {
   .custom-slider-next {
     position: absolute;
     top: 120%;
-    left: 100px;
+    left: 130px;
 
   }
 
   .custom-slider-arrow {
     position: absolute;
     top: 150%;
-    right: 50px;
+    right: 120px;
 
   }
 
